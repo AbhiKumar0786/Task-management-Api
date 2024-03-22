@@ -53,26 +53,26 @@ User Registration, User Login and Authorization process****
 
 Project Endpoints****
 
-  1)Post-api/test/addTask
+  Post-api/test/addTask
     1. You can add the task into the Db by using this api 
     2. you will be sending the rquest -AddTaskRquest(title , duedate , status , description username) in form of request  Body
     3. after getting this request it project will check that username is valid or not , if it is not valid then it will throw an error that User is not exist
     4. if username is true then it will send into the service and make the Task Object and set its all paramter and save it into the Database
 
-  2)Post-api/test/getAllTaskOfUser
+  Post-api/test/getAllTaskOfUser
     1. You can find the all task of a particular user
     2. int this api you will sending the request -GetAllTaskRequest(username) in form of  request body
 
-  3)Put-api/test/updateTaskDetails
+  Put-api/test/updateTaskDetails
     1. You can update the task by using this api
     2. you will be sending the request -TaskUpdateDetail(title , detail) int form of request body
 
-  4)Put-api/test/updateStatus
+  Put-api/test/updateStatus
     1. You can update the status of task either it is completed ot not
     2. For updating the task you will be sending the request -UpdateStatus(title , status) in form of request of body
     3. after getting the Task with help of title and update the status
 
-  5)Delete-api/test/deleteTask
+  Delete-api/test/deleteTask
     1. You can delete the task from databse
     2. For deleting the task from database , you will be getting the task with the help of title of task
 
