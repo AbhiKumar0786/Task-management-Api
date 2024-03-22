@@ -8,6 +8,20 @@ OVERVIEW--
 
 Models**
 1)User
+  i) In this entity there will be a userId , username , Role , password.
+  ii) role can be different type.(User , Admin).
+  iii) by using signup process you can add the user into the database.
+
+2)Task
+  i) Task is very important entity in this project.
+  ii) you can add the task with he help of user into the databse. you can update the task delete the task from the databse.
+  iii)In the task there will be title , description , status , dueDate.
+  
+3)Role
+ i)There will be id , name of role.
+ ii) name of the role can be use , admin.
+ 
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
