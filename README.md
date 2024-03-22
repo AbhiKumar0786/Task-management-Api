@@ -1,17 +1,20 @@
 # Task-management-Api
 
-OVERVIEW--
+OVERVIEW-
+--------
 1) This is Task Management System project.
 2) In this prject you can add Task into the database and update that task into the database if you are a authorised user.
 3) In this project I have integrated a best authentication which help in providing the access control on API.
 --------------------------------------------------------------------------------------------------------------------------------------------
-Features--
+Features---
+--------
 1. User registration: Allows users to register by providing a username and password.
 2. User authentication: Validates user credentials and generates a JWT token for subsequent API requests.
 3. JWT token-based authentication: Secures API endpoints using JWT tokens.
 4. Retrieving user details: Provides an endpoint to retrieve user details based on the authenticated JWT token.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Technologies Used***
+-----------------
 1. Java
 2. Spring Boot
 3. Spring Security
@@ -19,6 +22,7 @@ Technologies Used***
 5. JWT(Jason Web Token)
 ---------------------------------------------------------------------------------------------------------------------------------------------
 Models**
+------
 1)User
   1) In this entity there will be a userId , username , Role , password.
   2) role can be different type.(User , Admin).
@@ -35,11 +39,13 @@ Models**
  
 -------------------------------------------------------------------------------------------------------------------------------------------------
 Relationship**
+--------------
 1. User has relationship of @OneToMany with the Task. Because user can have many task but task can be given to one user only. 
 2. User can update their task and can delete their task also.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 User Registration, User Login and Authorization process****
+-------------------------------------------------------
 1)User Resistration
   1. Post-api/auth/signup
   2. (username , role , password , email)
@@ -52,6 +58,7 @@ User Registration, User Login and Authorization process****
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Project Endpoints****
+-------------------
 
   Post-api/test/addTask
   ---------------------
