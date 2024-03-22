@@ -5,7 +5,19 @@ OVERVIEW--
 2) In this prject you can add Task into the database and update that task into the database if you are a authorised user.
 3) In this project I have integrated a best authentication which help in providing the access control on API.
 --------------------------------------------------------------------------------------------------------------------------------------------
-
+Features--
+1. User registration: Allows users to register by providing a username and password.
+2. User authentication: Validates user credentials and generates a JWT token for subsequent API requests.
+3. JWT token-based authentication: Secures API endpoints using JWT tokens.
+4. Retrieving user details: Provides an endpoint to retrieve user details based on the authenticated JWT token.
+--------------------------------------------------------------------------------------------------------------------------------------------
+Technologies Used***
+1. Java
+2. Spring Boot
+3. Spring Security
+4. Spring data Jpa
+5. JWT(Jason Web Token)
+---------------------------------------------------------------------------------------------------------------------------------------------
 Models**
 1)User
   1) In this entity there will be a userId , username , Role , password.
