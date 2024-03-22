@@ -8,9 +8,9 @@ OVERVIEW--
 
 Models**
 1)User
-  i) In this entity there will be a userId , username , Role , password.
-  ii) role can be different type.(User , Admin).
-  iii) by using signup process you can add the user into the database.
+  1) In this entity there will be a userId , username , Role , password.
+  2) role can be different type.(User , Admin).
+  3) by using signup process you can add the user into the database.
 
 2)Task
   i) Task is very important entity in this project.
@@ -27,7 +27,7 @@ Relationship**
 2) User can update their task and can delete their task also.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
-User Registration, User Login and Authorization process.----
+User Registration, User Login and Authorization process****
 ->User Resistration
   i)Post-api/auth/signup
   ii)(username , role , password , email)
@@ -36,9 +36,10 @@ User Registration, User Login and Authorization process.----
   i)Post-api/auth/signin
   ii)(username , password)
   iii) after hitting this api server will check about validation of user and send a Jwt token in form of response.
+  
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-Project Endpoints...----
+Project Endpoints****
   1)Post-api/test/addTask
     i) You can add the task into the Db by using this api. 
     ii) you will be sending the rquest -AddTaskRquest(title , duedate , status , description username) in form of request  Body.
